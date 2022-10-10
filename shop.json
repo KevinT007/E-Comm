@@ -10,67 +10,67 @@
       "img": "images-items/Witcher3.webp",
       "title": "The Witcher 3: Wild Hunt",
       "price": "$49.96",
-      "dev": ""
+      "dev": "CD Projekt Red"
     },
     {
       "img": "images-items/CP.jpeg",
       "title": "Cyberpunk 2077",
       "price": "$59.99",
-      "dev": ""
+      "dev": "CD Projekt RedSlim"
     },
     {
       "img": "images-items/SR2.jpeg",
       "title": "Slime Rancher 2",
       "price": "$29.99",
-      "dev": ""
+      "dev": "Monomi Park"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/OW2.jpeg",
       "title": "Overwatch 2",
       "price": "Free to Play",
-      "dev": ""
+      "dev": "Blizzard"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/MC.jpeg",
       "title": "Minecraft",
-      "price": "",
-      "dev": ""
+      "price": "$29.99",
+      "dev": "Mojang"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/ER.webp",
       "title": "Elden Ring",
-      "price": "",
-      "dev": ""
+      "price": "$59.99",
+      "dev": "Bandai Namco"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/GOW.jpeg",
       "title": "God of War",
-      "price": "",
-      "dev": ""
+      "price": "$49.99",
+      "dev": "Santa Monica Studio"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/AC.png",
       "title": "Assassin's Creed Valhalla",
-      "price": "",
-      "dev": ""
+      "price": "$59.99",
+      "dev": "Ubisoft"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/SM.jpeg",
       "title": "Spider-man",
-      "price": "",
-      "dev": ""
+      "price": "$59.99",
+      "dev": "Insomniac Games"
     },
     {
-      "img": "images-items/",
+      "img": "images-items/SW.webp",
       "title": "Star Wars Jedi: Fallen Order",
       "price": "$39.99",
-      "dev": ""
+      "dev": "Electronic Arts"
     },
     {
       "img": "images-items/BOTW.jpeg",
       "title": "Legend of Zelda: Breath of the Wild",
       "price": "$39.99",
-      "dev": ""
+      "dev": "Nintendo"
     }
   ]
 }
