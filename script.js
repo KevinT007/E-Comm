@@ -60,3 +60,27 @@ window.onload = function () {
   responsiveSlider();
 };
 // Resourse https://dev.to/code_mystery/automatic-image-slider-using-html-css-javascript-nf8
+// Json...
+// fetch("shop.json")
+//   .then((response) => response.json())
+//   .then((data) => getItems(data));
+
+// function getItems(data) {
+//   let output = "";
+//   data.forEach((items) => {
+//     output += `
+
+//         <div id="item-img">
+//           <img src="items.img" alt="items.name"></img>
+//         </div>
+//         <div>
+//           <h2>${items.name}</h2>
+//           <h3>${items.price}</h3>
+//           <p>${items.dev}</p>
+//           <button id="buy">BUY</button>
+//         </div>
+//       `;
+//   });
+//   document.getElementById("shopping").innerHTML = output;
+// }
+fetch;
