@@ -96,3 +96,8 @@ footer {
     font-size: 4vw;
   }
 }
+@media screen {
+  body {
+    background-size: 100vw 270vh;
+  }
+}

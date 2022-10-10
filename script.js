@@ -1,5 +1,5 @@
 // Drop down menu for smaller devices
-function myFunction() {
+function menu() {
   var x = document.getElementById("topnavbar");
   if (x.className === "navbar") {
     x.className += " responsive";
@@ -59,3 +59,4 @@ var responsiveSlider = function () {
 window.onload = function () {
   responsiveSlider();
 };
+// Resourse https://dev.to/code_mystery/automatic-image-slider-using-html-css-javascript-nf8

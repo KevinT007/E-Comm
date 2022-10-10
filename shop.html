@@ -16,19 +16,43 @@
   <body>
     <header>
       <nav id="nav">
-        <a href="index.html"><img src="images/joystick.png" alt="Snack" /></a>
+        <a href="index.html"
+          ><img class="img" src="images/joystick.png" alt="Snack"
+        /></a>
         <article class="navbar" id="topnavbar">
           <a href=""></a>
           <a href=""></a>
           <a href="contact.html">Contact</a>
           <a href="shop.html" class="active">Shop</a>
           <a href="index.html">Home</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="javascript:void(0);" class="icon" onclick="menu()">
             <i class="fa fa-bars"></i>
           </a>
         </article>
       </nav>
+      <!-- Shop Page Slider -->
+      <h1 class="title">The Shop</h1>
+
+      <section class="slide_container">
+        <main class="slides">
+          <article id="slider">
+            <ul id="slideWrap">
+              <li><img src="images-items/gamingsetup1.jpeg" alt="" /></li>
+              <li><img src="images-items/pcsetup1.jpeg" alt="" /></li>
+              <li><img src="images-items/Controllerd2.jpeg" alt="" /></li>
+              <li><img src="images-items/headphones1.jpeg" alt="" /></li>
+              <li><img src="images-items/key1.webp" alt="" /></li>
+            </ul>
+            <a id="prev" href="#">&#8810;</a>
+            <a id="next" href="#">&#8811;</a>
+          </article>
+        </main>
+      </section>
+      <p class="title">Right now, we're only selling videogames.</p>
     </header>
+    <section class="shop">
+      <div class="shopitems"></div>
+    </section>
     <footer>
       <article class="footerimg">
         <a href="http://www.twitter.com"

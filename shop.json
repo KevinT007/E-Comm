@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "img": "images-items/D2.jpeg",
+      "title": "Destiny 2",
+      "price": "Free to Play",
+      "dev": "Bungie"
+    },
+    {
+      "img": "images-items/Witcher3.webp",
+      "title": "The Witcher 3: Wild Hunt",
+      "price": "$49.96",
+      "dev": ""
+    },
+    {
+      "img": "images-items/CP.jpeg",
+      "title": "Cyberpunk 2077",
+      "price": "$59.99",
+      "dev": ""
+    },
+    {
+      "img": "images-items/SR2.jpeg",
+      "title": "Slime Rancher 2",
+      "price": "$29.99",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "Overwatch 2",
+      "price": "Free to Play",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "Minecraft",
+      "price": "",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "Elden Ring",
+      "price": "",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "God of War",
+      "price": "",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "Assassin's Creed Valhalla",
+      "price": "",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "Spider-man",
+      "price": "",
+      "dev": ""
+    },
+    {
+      "img": "images-items/",
+      "title": "Star Wars Jedi: Fallen Order",
+      "price": "$39.99",
+      "dev": ""
+    },
+    {
+      "img": "images-items/BOTW.jpeg",
+      "title": "Legend of Zelda: Breath of the Wild",
+      "price": "$39.99",
+      "dev": ""
+    }
+  ]
+}

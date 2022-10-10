@@ -13,7 +13,7 @@ header {
   /* position: relative; */
 }
 
-header img {
+header .img {
   width: 100px;
   filter: saturate(80%);
 }
@@ -50,6 +50,7 @@ nav {
 }
 
 /* Slider Begins Here */
+/* Position of Sliders */
 .slide_container {
   display: flex;
   flex-direction: row;
@@ -67,6 +68,7 @@ nav {
   overflow: hidden;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
+/* Positions the pictures within container */
 #slider ul {
   position: relative;
   list-style: none;
@@ -83,6 +85,7 @@ nav {
 
   float: left;
 }
+/* match size of images to container */
 #slider ul li img {
   width: 700px;
   height: 365px;
@@ -117,6 +120,9 @@ nav {
 
 /* when screen is smaller than 600px, removes all but home link. shows burger menu to open up a responsive nav menu. */
 @media screen and (max-width: 700px) {
+  header {
+    min-height: 50vh;
+  }
   #nav img {
     height: 70px;
     width: 70px;
@@ -128,9 +134,21 @@ nav {
     float: right;
     display: block;
   }
+  #slider {
+    width: 620px;
+    height: 265px;
+  }
+  #slider ul li img {
+    width: 620px;
+    height: 265px;
+  }
 }
+
 /* responsiveness, displays nav bar vertically instead of horizontally.*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  header {
+    min-height: 50vh;
+  }
   #nav img {
     height: 40px;
     width: 40px;
@@ -147,5 +165,26 @@ nav {
     float: none;
     display: block;
     text-align: left;
+  }
+  #slider {
+    width: 410px;
+    height: 265px;
+  }
+  #slider ul li img {
+    width: 410px;
+    height: 265px;
+  }
+}
+@media screen and (max-width: 410px) {
+  header {
+    min-height: 50vh;
+  }
+  #slider {
+    width: 310px;
+    height: 165px;
+  }
+  #slider ul li img {
+    width: 310px;
+    height: 165px;
   }
 }
