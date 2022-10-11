@@ -63,12 +63,12 @@ window.onload = function () {
 // Json...
 // fetch("shop.json")
 //   .then((response) => response.json())
-//     .then((data) => getItems(data));
+//     .then((shop) => getItems(shop));
 
-//   function getItems(data) {
+//   function getItems(shop) {
 //     let output = "";
 //     let op = querySelector("#shopping");
-//     data.forEach((items) => {
+//     shop.forEach((items) => {
 //       output += `
 
 // <div id="item-img">
@@ -89,26 +89,26 @@ fetch("shop.json")
     return response.json();
   })
   .then(function (products) {
-    let placeholder = document.querySelector("#shopping");
-    let out = "";
-    for (let product of products) {
-      out += `
+    let shopItems = document.querySelector("#shopping");
+    let output = "";
+    for (let shop of products) {
+      output += `
 <div class="shop-box">
        <div class="shop-image">
-         <img src="${product.img}" alt="" />
+         <img src="${shop.img}" alt="" />
        </div>
        <div class="shop-info">
-         <h3 class="shop-title">${product.title}</h3>
+         <h3 class="shop-title">${shop.title}</h3>
          <div class="shop-price">
-           <div class="price">${product.price}</div>
+           <div class="price">${shop.price}</div>
          </div>
          <div class="devInfo">
-           <div class="dev">${product.dev}</div>
+           <div class="dev">${shop.dev}</div>
          </div>
        </div>
      </div>
   `;
     }
 
-    placeholder.innerHTML = out;
+    shopItems.innerHTML = output;
   });
