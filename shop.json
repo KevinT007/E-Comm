@@ -1,76 +1,74 @@
-{
-  "items": [
-    {
-      "img": "images-items/D2.jpeg",
-      "title": "Destiny 2",
-      "price": "Free to Play",
-      "dev": "Bungie"
-    },
-    {
-      "img": "images-items/Witcher3.webp",
-      "title": "The Witcher 3: Wild Hunt",
-      "price": "$49.96",
-      "dev": "CD Projekt Red"
-    },
-    {
-      "img": "images-items/CP.jpeg",
-      "title": "Cyberpunk 2077",
-      "price": "$59.99",
-      "dev": "CD Projekt RedSlim"
-    },
-    {
-      "img": "images-items/SR2.jpeg",
-      "title": "Slime Rancher 2",
-      "price": "$29.99",
-      "dev": "Monomi Park"
-    },
-    {
-      "img": "images-items/OW2.jpeg",
-      "title": "Overwatch 2",
-      "price": "Free to Play",
-      "dev": "Blizzard"
-    },
-    {
-      "img": "images-items/MC.jpeg",
-      "title": "Minecraft",
-      "price": "$29.99",
-      "dev": "Mojang"
-    },
-    {
-      "img": "images-items/ER.webp",
-      "title": "Elden Ring",
-      "price": "$59.99",
-      "dev": "Bandai Namco"
-    },
-    {
-      "img": "images-items/GOW.jpeg",
-      "title": "God of War",
-      "price": "$49.99",
-      "dev": "Santa Monica Studio"
-    },
-    {
-      "img": "images-items/AC.png",
-      "title": "Assassin's Creed Valhalla",
-      "price": "$59.99",
-      "dev": "Ubisoft"
-    },
-    {
-      "img": "images-items/SM.jpeg",
-      "title": "Spider-man",
-      "price": "$59.99",
-      "dev": "Insomniac Games"
-    },
-    {
-      "img": "images-items/SW.webp",
-      "title": "Star Wars Jedi: Fallen Order",
-      "price": "$39.99",
-      "dev": "Electronic Arts"
-    },
-    {
-      "img": "images-items/BOTW.jpeg",
-      "title": "Legend of Zelda: Breath of the Wild",
-      "price": "$39.99",
-      "dev": "Nintendo"
-    }
-  ]
-}
+[
+  {
+    "img": "images-items/D2.jpeg",
+    "title": "Destiny 2",
+    "price": "Free to Play",
+    "dev": "Bungie"
+  },
+  {
+    "img": "images-items/Witcher3.webp",
+    "title": "The Witcher 3: Wild Hunt",
+    "price": "$49.96",
+    "dev": "CD Projekt Red"
+  },
+  {
+    "img": "images-items/CP.jpeg",
+    "title": "Cyberpunk 2077",
+    "price": "$59.99",
+    "dev": "CD Projekt RedSlim"
+  },
+  {
+    "img": "images-items/SR2.jpeg",
+    "title": "Slime Rancher 2",
+    "price": "$29.99",
+    "dev": "Monomi Park"
+  },
+  {
+    "img": "images-items/OW2.jpeg",
+    "title": "Overwatch 2",
+    "price": "Free to Play",
+    "dev": "Blizzard"
+  },
+  {
+    "img": "images-items/MC.jpeg",
+    "title": "Minecraft",
+    "price": "$29.99",
+    "dev": "Mojang"
+  },
+  {
+    "img": "images-items/ER.webp",
+    "title": "Elden Ring",
+    "price": "$59.99",
+    "dev": "Bandai Namco"
+  },
+  {
+    "img": "images-items/GOW.jpeg",
+    "title": "God of War",
+    "price": "$49.99",
+    "dev": "Santa Monica Studio"
+  },
+  {
+    "img": "images-items/AC.png",
+    "title": "Assassin's Creed Valhalla",
+    "price": "$59.99",
+    "dev": "Ubisoft"
+  },
+  {
+    "img": "images-items/SM.jpeg",
+    "title": "Spider-man",
+    "price": "$59.99",
+    "dev": "Insomniac Games"
+  },
+  {
+    "img": "images-items/SW.webp",
+    "title": "Star Wars Jedi: Fallen Order",
+    "price": "$39.99",
+    "dev": "Electronic Arts"
+  },
+  {
+    "img": "images-items/BOTW.jpeg",
+    "title": "Legend of Zelda: Breath of the Wild",
+    "price": "$39.99",
+    "dev": "Nintendo"
+  }
+]

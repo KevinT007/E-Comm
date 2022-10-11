@@ -63,24 +63,52 @@ window.onload = function () {
 // Json...
 // fetch("shop.json")
 //   .then((response) => response.json())
-//   .then((data) => getItems(data));
+//     .then((data) => getItems(data));
 
-// function getItems(data) {
-//   let output = "";
-//   data.forEach((items) => {
-//     output += `
+//   function getItems(data) {
+//     let output = "";
+//     let op = querySelector("#shopping");
+//     data.forEach((items) => {
+//       output += `
 
-//         <div id="item-img">
-//           <img src="items.img" alt="items.name"></img>
-//         </div>
-//         <div>
-//           <h2>${items.name}</h2>
-//           <h3>${items.price}</h3>
-//           <p>${items.dev}</p>
-//           <button id="buy">BUY</button>
-//         </div>
-//       `;
-//   });
-//   document.getElementById("shopping").innerHTML = output;
-// }
-fetch;
+// <div id="item-img">
+//   <img src=${items.img} alt=${items.name}></img>
+// </div>
+// <div>
+//   <h2>${items.name}</h2>
+//   <h3>${items.price}</h3>
+//   <p>${items.dev}</p>
+//   <button id="buy">BUY</button>
+// </div>
+//         `;}
+//       op.innerHTML = output;
+//  ) };
+
+fetch("shop.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (products) {
+    let placeholder = document.querySelector("#shopping");
+    let out = "";
+    for (let product of products) {
+      out += `
+<div class="shop-box">
+       <div class="shop-image">
+         <img src="${product.img}" alt="" />
+       </div>
+       <div class="shop-info">
+         <h3 class="shop-title">${product.title}</h3>
+         <div class="shop-price">
+           <div class="price">${product.price}</div>
+         </div>
+         <div class="subInfo">
+           <div class="dev">${product.dev}</div>
+         </div>
+       </div>
+     </div>
+  `;
+    }
+
+    placeholder.innerHTML = out;
+  });
