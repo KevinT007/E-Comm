@@ -20,7 +20,7 @@ var responsiveSlider = function () {
   window.addEventListener("resize", function () {
     sliderWidth = slider.offsetWidth;
   });
-  //Determine the what change will happen you click <<.
+
   var prevSlide = function () {
     if (count > 1) {
       count = count - 2;
@@ -32,7 +32,7 @@ var responsiveSlider = function () {
       count++;
     }
   };
-  //Determine the what change will happen you click >>.
+
   var nextSlide = function () {
     if (count < items) {
       slideList.style.left = "-" + count * sliderWidth + "px";
