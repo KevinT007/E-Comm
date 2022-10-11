@@ -102,7 +102,7 @@ fetch("shop.json")
          <div class="shop-price">
            <div class="price">${product.price}</div>
          </div>
-         <div class="subInfo">
+         <div class="devInfo">
            <div class="dev">${product.dev}</div>
          </div>
        </div>

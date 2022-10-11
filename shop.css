@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #0e0d0f;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,7 +40,6 @@ p {
   position: relative;
   width: 700px;
   height: 365px;
-
   overflow: hidden;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
@@ -57,7 +57,6 @@ p {
 #slider ul li {
   position: relative;
   height: 100%;
-
   float: left;
 }
 /* match size of images to container */
@@ -92,9 +91,53 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow: 0;
 }
-
-.shop {
+/* Shop Items */
+.shop-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.899)),
+    url(images-items/pcsetup1.jpeg);
 }
+#shopping {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.shop-box {
+  flex: 310px;
+  flex-grow: 0;
+  background: #0e0d0f;
+  border: 1px groove #d6d2c4;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+.shop-box .shop-image {
+  background: #898e88;
+  text-align: center;
+}
+.shop-box .shop-image img {
+  height: 350px;
+  width: 300px;
+  filter: drop-shadow(0 2px 5px black);
+}
+.shop-box .shop-info .shop-title {
+  padding: 10px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.shop-box .shop-info {
+  text-align: center;
+  padding: 5px 10px;
+  color: white;
+}
+
 .footerimg {
   width: 3vw;
 }
