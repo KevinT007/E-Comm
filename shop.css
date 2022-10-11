@@ -154,3 +154,35 @@ footer {
   background-color: #0e0d0f;
   position: relative;
 }
+@media screen and (max-width: 700px) {
+  #slider {
+    width: 620px;
+    height: 265px;
+  }
+  #slider ul li img {
+    width: 620px;
+    height: 265px;
+  }
+}
+
+/* responsiveness, displays nav bar vertically instead of horizontally.*/
+@media screen and (max-width: 500px) {
+  #slider {
+    width: 410px;
+    height: 265px;
+  }
+  #slider ul li img {
+    width: 410px;
+    height: 265px;
+  }
+}
+@media screen and (max-width: 410px) {
+  #slider {
+    width: 310px;
+    height: 165px;
+  }
+  #slider ul li img {
+    width: 310px;
+    height: 165px;
+  }
+}
