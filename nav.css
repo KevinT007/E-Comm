@@ -118,7 +118,6 @@ nav {
   text-shadow: 0;
 }
 
-/* when screen is smaller than 600px, removes all but home link. shows burger menu to open up a responsive nav menu. */
 @media screen and (max-width: 700px) {
   header {
     min-height: 50vh;
@@ -144,7 +143,6 @@ nav {
   }
 }
 
-/* responsiveness, displays nav bar vertically instead of horizontally.*/
 @media screen and (max-width: 500px) {
   header {
     min-height: 50vh;
